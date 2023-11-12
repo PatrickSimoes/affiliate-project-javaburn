@@ -1,10 +1,11 @@
 {
   "hosting": {
-    "public": "y",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "dist",  // Substitua "dist" pelo diretório onde seus arquivos estáticos são gerados
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
