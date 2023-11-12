@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",  // Substitua "dist" pelo diretório onde seus arquivos estáticos são gerados
+    "public": "/",
     "rewrites": [
       {
         "source": "**",
