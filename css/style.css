@@ -975,3 +975,12 @@ a:focus {
   max-width: 800%;
   max-height: 800%;
 }
+
+@media only screen and (max-width: 670px) {
+  /* Ajuste para telas menores que 600px de largura */
+  .imagem-personalizada {
+    margin-left: 5px;
+    max-width: 100%; /* Reduz a largura máxima da imagem para 80% do tamanho do contêiner */
+    max-height: 100%; /* Reduz a altura máxima da imagem para 80% do tamanho do contêiner */
+  }
+}
