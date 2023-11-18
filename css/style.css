@@ -984,3 +984,37 @@ a:focus {
     max-height: 100%; /* Reduz a altura máxima da imagem para 80% do tamanho do contêiner */
   }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#img-country {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#img-container {
+  background-color: #f0f0ff; /* Cor de fundo para as imagens */
+  display: inline-block; /* Ajusta o tamanho do contêiner às imagens */
+  padding: 10px; /* Adiciona um espaçamento interno */
+  border-radius: 8px; /* Adiciona borda arredondada */
+}
+
+#img-country-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Remove margens padrão da lista */
+}
+
+#img-country-list li {
+  display: inline-block;
+  margin: 0;
+}
+
+#img-country-list img {
+  width: 300px;
+  height: 150px;
+  border-radius: 8px; /* Adiciona borda arredondada às imagens */
+  margin-right: 10px;
+}
