@@ -50,7 +50,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #F57725;
+  color: orangered;
 }
 
 .heading_container p {
@@ -926,11 +926,12 @@ a:focus {
 
 #sua-div-img-main {
   display: flex;
-  flex-direction: column; /* Alterado para coluna */
   justify-content: center;
   align-items: center;
   background-color: black;
+  height: 600px;
   text-align: center;
+  padding: 15px;
 }
 
 #sua-div-img-main img {
@@ -1017,4 +1018,31 @@ body {
   height: 150px;
   border-radius: 8px; /* Adiciona borda arredondada às imagens */
   margin-right: 10px;
+}
+
+#img-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#img-title img {
+  height: 75px;
+}
+
+#action-buy {
+      align-items: center;
+      padding: 10px 20px;
+      margin: 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: orangered; /* Cor de fundo (pode ser alterada) */
+      color: #ffffff; /* Cor do texto branco (pode ser alterada) */
+      border: 2px solid orangered; /* Cor da borda igual à cor de fundo */
+      border-radius: 8px; /* Cantos arredondados */
+      cursor: pointer;
 }
