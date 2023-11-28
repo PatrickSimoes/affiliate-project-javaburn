@@ -1047,13 +1047,13 @@ body {
       cursor: pointer;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 750px) {
   #imagem-none {
     display: none !important;
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 750px) {
   #img-title img {
       width: 100%;
       height: auto;
